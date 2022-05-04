@@ -1,0 +1,210 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color:#757575;
+    --accent-color: #2196F3;
+    --bcg-color: #2F303A;
+    --primary-letter-spacing: 0.03em; 
+    --secondly-letter-spacing: 0.02em;
+    --hero-letter-spacing: 0.06em;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: #fff;
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: var(--primary-letter-spacing);
+}
+
+.hero-tittle {
+    letter-spacing: var(--hero-letter-spacing);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.feature-list,
+.list {
+    list-style: none;
+}
+
+.list-tittle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: var(--hero-letter-spacing);
+}
+
+.project-text {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.tittle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+/* У лого нужно поменять еще одну часть */
+.logo {
+    color: var(--accent-color);
+    
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.accent {
+    color: #000000;
+}
+
+.footer .logo .accent {
+    color: #FFFFFF;
+}
+
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+
+.auth-nav .link,
+.tittle-text,
+.employee-text {
+    color: var(--secondary-text-color);
+}
+
+.site-nav .link, 
+.auth-nav .link,
+.footer-nav-address, 
+.footer-nav .link {
+    text-decoration: none;
+}
+
+.tittle-text,
+.footer-nav.list {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.section-tittle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;;
+}
+
+.employee-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.employee-text {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.site-nav .link:hover, 
+.auth-nav .link:hover,
+.footer-nav-address:hover,
+.footer-nav .link:hover {
+    color: var(--accent-color);
+}
+
+.site-nav,
+.auth-nav {
+    letter-spacing: var(--secondly-letter-spacing);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.site-nav .link:focus,
+.auth-nav .link:focus,
+.footer-nav-address:focus,
+.footer-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+} 
+
+/* Почему кнопка не становится по центру? */
+.button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+
+    letter-spacing: var(--hero-letter-spacing);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+
+    cursor: pointer;
+
+}
+
+
+.secondary-button {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: var(--primary-letter-spacing);
+}
+
+.secondary-button:hover {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+.secondary-button:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+.footer, .hero {
+    background-color: var(--bcg-color);
+}
+
+.footer-nav .link {
+    color: #FFFFFF99;
+}
+
+.footer-nav-address,
+.hero-tittle {
+    color: #FFFFFF;
+}
+
+.section-third {
+    background-color: #F5F4FA;
+}
+
+
+/* 
+мелкий текст #757575 
+жирный текст #212121
+цвет лого черный #000000
+цвет лого синий #2196F3
+цвет кнопки (accent) #2196F3;
+цвет h1 #FFFFFF
+цвет фона h1 и футера #2F303A
+цвет фона сотрудников #F5F4FA
+#FFFFFF99 60% для почты и телефона в футере
+*/
