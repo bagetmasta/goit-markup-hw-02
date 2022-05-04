@@ -115,7 +115,11 @@ body {
 .site-nav .link:hover, 
 .auth-nav .link:hover,
 .footer-nav-address:hover,
-.footer-nav .link:hover {
+.footer-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:focus,
+.footer-nav-address:focus,
+.footer-nav .link:focus {
     color: var(--accent-color);
 }
 
@@ -126,13 +130,6 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-}
-
-.site-nav .link:focus,
-.auth-nav .link:focus,
-.footer-nav-address:focus,
-.footer-nav .link:focus {
-    color: var(--accent-color);
 }
 
 .site-nav .link.current {
